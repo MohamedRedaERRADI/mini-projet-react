@@ -1,0 +1,75 @@
+
+  
+.create-account-container {
+    width: 100%;
+    margin: 10px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style du titre */
+  .create-account-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style des champs de saisie */
+  .create-account-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Style du bouton de création de compte */
+  .create-account-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745; /* Vert */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .create-account-container button:hover {
+    background-color: #218838; /* Vert foncé au survol */
+  }
+  
+  /* Style des messages d'erreur */
+  .create-account-container ul {
+    padding-left: 20px;
+    list-style-type: none;
+    color: red;
+  }
+  
+  .create-account-container ul li {
+    font-size: 14px;
+  }
+  
+  /* Style des champs de mot de passe et de confirmation */
+  .create-account-container input[type="password"] {
+    font-size: 14px;
+  }
+  
+  /* Style du lien de redirection */
+  .create-account-container p {
+    text-align: center;
+  }
+  
+  .create-account-container p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .create-account-container p a:hover {
+    text-decoration: underline;
+  }
+  

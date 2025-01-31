@@ -1,0 +1,121 @@
+/* Styles généraux */
+.demandes-container, .user-demandes-container, .admin-demandes-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre principal */
+.demandes-container h1, .user-demandes-container h2, .admin-demandes-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Formulaire d'ajout */
+.user-demandes-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-demandes-container input,
+.user-demandes-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.user-demandes-container button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.user-demandes-container button:hover {
+    background: #0056b3;
+}
+
+/* Tableaux */
+.user-demandes-table, .demandes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.user-demandes-table th, .user-demandes-table td,
+.demandes-table th, .demandes-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.user-demandes-table th, .demandes-table th {
+    background: #007bff;
+    color: white;
+}
+
+/* Boutons d'action */
+.cancel-button, .approve-button, .reject-button, .delete-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 5px;
+}
+
+.cancel-button {
+    background: #ff9800;
+    color: white;
+}
+
+.cancel-button:hover {
+    background: #e68900;
+}
+
+.approve-button {
+    background: #28a745;
+    color: white;
+}
+
+.approve-button:hover {
+    background: #218838;
+}
+
+.reject-button {
+    background: #dc3545;
+    color: white;
+}
+
+.reject-button:hover {
+    background: #c82333;
+}
+
+.delete-button {
+    background: #6c757d;
+    color: white;
+}
+
+.delete-button:hover {
+    background: #5a6268;
+}
+
+/* Message "Aucune demande" */
+.no-demandes {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+    margin-top: 20px;
+}
